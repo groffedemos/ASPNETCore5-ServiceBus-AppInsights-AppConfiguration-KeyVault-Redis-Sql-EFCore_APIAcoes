@@ -42,7 +42,7 @@ namespace APIAcoes
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIAcoes", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIAcoes - Cloud Conference Day 2021", Version = "v1" });
             });
 
             services.AddApplicationInsightsTelemetry(Configuration);
